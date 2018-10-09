@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  font-family: "Fredoka One", sans-serif;
+  background: repeating-linear-gradient(-45deg, #c9fcff 10px, #d4fdff 20px);
+  border: 3px solid #b3fbff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #990073;
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 100px;
+  left: 40px;
+}
+
+p {
+  color: #c09;
+  position: absolute;
+  transform: rotate(-5deg);
+  top: 150px;
+  left: 40px;
+}
+
+header {
+  position: relative;
+
+}
+
+.btn {
+  color: #c09;
+  border-color: #990073;
+  position: absolute;
+  top: 220px;
+  left: 40px;
+}
+
+.cone {
+  position: absolute;
+  top: 450px;
+  right: 130px;
+  z-index: 1000;
+}
+
+.mint-chip {
+  position: absolute;
+  top: 300px;
+  right: 130px;
+}
+
+.chocolate-chip {
+  position: absolute;
+  top: 170px;
+  right: 100px;
+}
+
+.vanilla-fudge {
+  position: absolute;
+  top: 65px;
+  right: 110px;
+}
+
+.cherry {
+  position: absolute;
+  top: -40px;
+  right: 108px;
+}
