@@ -13,6 +13,7 @@ h1 {
   transform: rotate(-10deg);
   top: 80px;
   left: 45px;
+  text-shadow: 2px 2px 8px #c4c4c4;
   animation: text-blur 1s linear forwards;
   opacity: 0;
   filter: blur(7px);
@@ -24,6 +25,7 @@ p {
   transform: rotate(-5deg);
   top: 175px;
   left: 55px;
+  text-shadow: 2px 2px 8px #c4c4c4;
   max-width: 19em;
   animation: text-blur 1s linear forwards;
   opacity: 0;
@@ -40,6 +42,7 @@ header {
   position: absolute;
   top: 320px;
   left: 57px;
+  text-shadow: 2px 2px 8px #c4c4c4;
   animation: text-blur 1s linear forwards;
   opacity: 0;
   filter: blur(7px);
