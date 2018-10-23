@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: repeating-linear-gradient(60deg, #c9fcff 20px, #d4fdff 30px);
+  background: repeating-linear-gradient(-150deg, #c9fcff 20px, #d4fdff 30px);
   border: 3px solid #b3fbff;
 }
 
@@ -13,6 +13,9 @@ h1 {
   transform: rotate(-10deg);
   top: 80px;
   left: 45px;
+  animation: text-blur 1s linear forwards;
+  opacity: 0;
+  filter: blur(7px);
 }
 
 p {
@@ -22,7 +25,9 @@ p {
   top: 175px;
   left: 55px;
   max-width: 19em;
-
+  animation: text-blur 1s linear forwards;
+  opacity: 0;
+  filter: blur(7px);
 }
 
 header {
@@ -34,13 +39,16 @@ header {
   border-color: #990073;
   position: absolute;
   top: 320px;
-  left: 65px;
+  left: 57px;
+  animation: text-blur 1s linear forwards;
+  opacity: 0;
+  filter: blur(7px);
 }
 
 .cone {
   position: absolute;
   top: 265px;
-  right: 230px;
+  right: 30px;
   z-index: 1000;
   transform: scale(.7);
 }
@@ -48,27 +56,36 @@ header {
 .mint-chip {
   position: absolute;
   top: 160px;
-  right: 230px;
+  right: 30px;
   transform: scale(.7);
 }
 
 .chocolate-chip {
   position: absolute;
   top: 76px;
-  right: 220px;
+  right: 25px;
   transform: scale(.7);
 }
 
 .vanilla-fudge {
   position: absolute;
   top: 4px;
-  right: 235px;
+  right: 35px;
   transform: scale(.7);
 }
 
 .cherry {
   position: absolute;
   top: -75px;
-  right: 230px;
+  right: 30px;
   transform: scale(.7);
+}
+
+@keyframes text-blur {
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+
 }
