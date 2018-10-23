@@ -9,25 +9,21 @@ body {
 
 h1 {
   color: #990073;
-  position: absolute;
   transform: rotate(-10deg);
-  top: 80px;
-  left: 45px;
   text-shadow: 2px 2px 8px #c4c4c4;
-  animation: text-blur 1s linear forwards;
+  transform-origin: left center;
+  animation: text-blur 1s 1s linear forwards;
   opacity: 0;
   filter: blur(7px);
 }
 
 p {
   color: #c09;
-  position: absolute;
   transform: rotate(-5deg);
-  top: 175px;
-  left: 55px;
   text-shadow: 2px 2px 8px #c4c4c4;
   max-width: 19em;
-  animation: text-blur 1s linear forwards;
+  transform-origin: left center;
+  animation: text-blur 1s 1s linear forwards;
   opacity: 0;
   filter: blur(7px);
 }
@@ -39,20 +35,18 @@ header {
 .btn {
   color: #c09;
   border-color: #990073;
-  position: absolute;
-  top: 320px;
-  left: 57px;
   text-shadow: 2px 2px 8px #c4c4c4;
-  animation: text-blur 1s linear forwards;
+  animation: text-blur 1s 1s linear forwards;
   opacity: 0;
   filter: blur(7px);
 }
 
 .cone {
   position: absolute;
-  top: 265px;
+  top: -300px;
   right: 30px;
   z-index: 1000;
+  animation: ice-cream 1s linear forwards;
   transform: scale(.7);
 }
 
@@ -89,6 +83,18 @@ header {
   to {
     opacity: 1;
     filter: blur(0);
+  }
+
+}
+
+ @keyframes ice-cream {
+
+  start {
+    transform: translateY(-300px);
+  }
+
+  end {
+    transform: translateY(265px);
   }
 
 }
