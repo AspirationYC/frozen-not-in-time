@@ -11,16 +11,18 @@ h1 {
   color: #990073;
   position: absolute;
   transform: rotate(-10deg);
-  top: 100px;
-  left: 40px;
+  top: 80px;
+  left: 45px;
 }
 
 p {
   color: #c09;
   position: absolute;
-  transform: rotate(-5deg);
+  transform: rotate(-8deg);
   top: 175px;
-  left: 43px;
+  left: 45px;
+  max-width: 19em;
+
 }
 
 header {
