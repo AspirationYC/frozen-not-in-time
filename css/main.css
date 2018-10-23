@@ -18,9 +18,9 @@ h1 {
 p {
   color: #c09;
   position: absolute;
-  transform: rotate(-8deg);
+  transform: rotate(-5deg);
   top: 175px;
-  left: 45px;
+  left: 55px;
   max-width: 19em;
 
 }
@@ -33,8 +33,8 @@ header {
   color: #c09;
   border-color: #990073;
   position: absolute;
-  top: 270px;
-  left: 43px;
+  top: 320px;
+  left: 65px;
 }
 
 .cone {
