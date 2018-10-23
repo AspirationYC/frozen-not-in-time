@@ -1,12 +1,10 @@
 html {
-  box-sizing: border-box;
   font-family: "Fredoka One", sans-serif;
-  background: repeating-linear-gradient(-45deg, #c9fcff 10px, #d4fdff 20px);
-  border: 3px solid #b3fbff;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+body {
+  background: repeating-linear-gradient(60deg, #c9fcff 20px, #d4fdff 30px);
+  border: 3px solid #b3fbff;
 }
 
 h1 {
@@ -21,50 +19,54 @@ p {
   color: #c09;
   position: absolute;
   transform: rotate(-5deg);
-  top: 150px;
-  left: 40px;
+  top: 175px;
+  left: 43px;
 }
 
 header {
   position: relative;
-
 }
 
 .btn {
   color: #c09;
   border-color: #990073;
   position: absolute;
-  top: 220px;
-  left: 40px;
+  top: 270px;
+  left: 43px;
 }
 
 .cone {
   position: absolute;
-  top: 450px;
-  right: 130px;
+  top: 265px;
+  right: 230px;
   z-index: 1000;
+  transform: scale(.7);
 }
 
 .mint-chip {
   position: absolute;
-  top: 300px;
-  right: 130px;
+  top: 160px;
+  right: 230px;
+  transform: scale(.7);
 }
 
 .chocolate-chip {
   position: absolute;
-  top: 170px;
-  right: 100px;
+  top: 76px;
+  right: 220px;
+  transform: scale(.7);
 }
 
 .vanilla-fudge {
   position: absolute;
-  top: 65px;
-  right: 110px;
+  top: 4px;
+  right: 235px;
+  transform: scale(.7);
 }
 
 .cherry {
   position: absolute;
-  top: -40px;
-  right: 108px;
+  top: -75px;
+  right: 230px;
+  transform: scale(.7);
 }
